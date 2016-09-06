@@ -8,7 +8,7 @@
 
     <title>
         
-            smyelblue - Responsive Jekyll Theme
+            Comparing CSS PREprocessors | Yellowblue - Responsive Jekyll Theme
         
     </title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
@@ -19,11 +19,11 @@
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="smike.cf/tag/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8/">
+    <link rel="canonical" href="http://localhost:3000/comparing-css-preprocessors">
 </head>
 
 
-    <body>
+    <body class="post-page">
 
       <svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="778" height="1376" viewBox="0 0 778 1376">
 <defs>
@@ -1385,12 +1385,12 @@
 
       <header class="site-header" id="top">
 
-  
+  <a href="https://github.com/chalatz/yellowblue"><img style="position: absolute; top: 0; right: 0; border: 0; margin: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
 
 <section class="site-logo">
 
   <a class="site-title-link" href="/">
-  	<div class="site-title">Smike Blog</div>
+  	<div class="site-title">Yellow Blue</div>
     <div class="a-left-line"><div class="runner"></div></div>
   </a>
   <div class="site-slogan">A Jekyll Theme</div>
@@ -1450,72 +1450,274 @@
         <div class="border2"></div>
       </a>
     </li>
+
+    <li>
+      <a target="_blank" href="http://chalatz.github.io/yellowblue-docs/">
+        Documentation
+        <div class="border1"></div>
+        <div class="border2"></div>
+      
+        <div class="svg-container">
+          <svg class="icon icon-newtab icon-blue" viewBox="0 0 32 32">
+            <use xlink:href="#icon-newtab"></use>
+          </svg>
+        </div> 
+      </a>     
+    </li>    
+
   </ul>
 
 </nav>
 
-
 </header>
 
 
-      <h1 class="outside-header">Posts tagged as: <span class="outside-tags">Модели</span></h1>
+      <div role="main" class="main-content main-post-content full-width">
+        <div class="post">
 
-      <div role="main" class="main-content">
-        
+	<div class="post-content-wrapper">
+		<header class="post-header">
+		<h1 data-sr="enter right" class="post-title">Comparing CSS PREprocessors</h1>
+		<p class="post-meta">Aug 10, 2015</p>
+		
+		
+			<div class="post-categories">
+				<div class="svg-container">
+					<svg class="icon icon-list2 icon-blue" viewBox="0 0 32 32">
+						<use xlink:href="#icon-list2"></use>
+					</svg>
+				</div>
 
-  <div class="post">
+				
+				
+					
+					
+						<a class="category-link" href="/category/css">CSS</a>
+					
+				
+			</div>
+		
 
-    <div class="post-icon-image "></div>
+		
 
-    <a href="/%D0%9A%D1%80%D0%B8%D0%B7%D0%B8%D1%81/%D0%A0%D1%8B%D0%BD%D0%BE%D0%BA/2015/01/23/42-wp-post1.html" class="post-title-link">
-      <h2 data-sr="enter left, hustle 20px">Рынок, кризис и линейная регрессия</h2>
-    </a>
+		</header>
 
-    <div class="post-date">23 / 01 / 2015</div>
-    
-    <div class="post-body">
-      
-      <p>В разное время на разных ресурсах обсуждались вопросы, связанные с  изменением фондового рынка. Обычно такие изменения связывают с разного рода катаклизмами. Я сам тоже учавствовал в такого рода обсуждениях, но каждый раз смотрел на предпосылки по разному. Какие обстоятельства определяли точку опоры сейчас сказать не могу, т.к. уже не помню всех нюансов. В данное время опять наступил такой момент, возникновение которого опять же наверно навеян окружающими событиями и обсуждениями. Итак, предположения-допущения (предпосылки) для подхода:</p>
+		<article class="post-content">
+		<h3 id="variables">Variables</h3>
+<div class="table-container">
+  <table class="pure-table pure-table-striped full-width blue-var">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Less</th>
+        <th>Sass</th>
+        <th>Stylus</th>
+      </tr>
+    </thead>
+    <tbody>
 
-<ul>
-    <li>1. Доходы/расходы участников(продавцов/покупателей) зависят от изменения цен инструментов.(ROC)</li>
-    <li>2. Изменение параметров ROC приводит к изменению поведения участников.</li>
-    <li>3. Массовое изменение поведения участников меняет рынок.</li>
-    <li>4. Поскольку речь об оценках необходимо выбрать точку опоры = модель, с которой будем сравнивать инструменты. В качестве модели я произвольно(настроение у меня такое) выбрал линейную регрессию. Почему именно линейная – да просто потому, что большинство предпочитают разные линии в качестве индикаторов. Опять же бюджетирование в основном базируется тоже на линейных предположениях. Тот же DCF к примеру.</li>
-    <li>5. Важным параметром в подобного рода исследованиях является длина скользящего окна данных. Поскольку структурные изменения происходят не так часто имеет смысл рассматривать длинный период. Я решил разделить год на 2 части и смотреть в окне длиной полгода.</li>
-</ul>
+      <tr>
+        <td>
+          <div class="bold">Basic</div>
+          <div>Ability to declare variables and use them later</div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-checkmark icon-green" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-checkmark"></use>
+              </svg>
+          </div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-checkmark icon-green" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-checkmark"></use>
+              </svg>
+          </div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-checkmark icon-green" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-checkmark"></use>
+              </svg>
+          </div>
+        </td>
+      </tr>
 
-<p>Перед тем как начать приведу забавную картинку из цикла « что можно получить из рыночных данных через призму линейной регрессии». Разрисовка связана с углом наклона и длиной окна регрессии.</p>
+      <tr>
+        <td>
+          <div class="bold">Default</div>
+          <div>Default variables are overwritten by regular ones, no matter when they are declared</div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-close icon-red" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-close "></use>
+              </svg>
+          </div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-checkmark icon-green" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-checkmark"></use>
+              </svg>
+          </div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-checkmark icon-green" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-checkmark"></use>
+              </svg>
+          </div>
+        </td>
+      </tr>
 
-<p><img src="/images/p1fig1.jpg" alt="&quot;sm Factors Base&quot;" /></p>
+      <tr>
+        <td>
+          <div class="bold">Lazy</div>
+          <div>Variable Hoisting, variables can be declared after being used</div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-checkmark icon-green" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-checkmark "></use>
+              </svg>
+          </div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-close icon-red" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-close"></use>
+              </svg>
+          </div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-close icon-red" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-close"></use>
+              </svg>
+          </div>
+        </td>
+      </tr>
 
-<p>В качестве инструментов взял все имеющиеся у меня данные по СиПи 500 и индексу РТС.(первые дневки с Yahoo, вторые дневки c FINAM). Для простоты и удобства представления на графиках дневки преобразовал в недельки. Графики инструментов выглядат как на рисунках  ниже:</p>
+      <tr>
+        <td>
+          <div class="bold">Lookup</div>
+          <div>Use the value of a previously declared property elsewhere</div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-close icon-red" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-close "></use>
+              </svg>
+          </div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-close icon-red" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-close"></use>
+              </svg>
+          </div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-checkmark icon-green" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-checkmark"></use>
+              </svg>
+          </div>
+        </td>
+      </tr>
 
-<p><img src="/images/p1fig2.jpg" alt="&quot;sm Factors Base&quot;" /></p>
+      <tr>
+        <td>
+          <div class="bold">Scoped</div>
+          <div>Restrict the scope of variables</div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-checkmark icon-green" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-checkmark "></use>
+              </svg>
+          </div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-checkmark icon-green" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-checkmark"></use>
+              </svg>
+          </div>
+        </td>
+        <td>
+          <div class="svg-container">
+              <svg class="icon icon-checkmark icon-green" viewBox="0 0 32 32">
+                  <use xlink:href="#icon-checkmark"></use>
+              </svg>
+          </div>
+        </td>
+      </tr>
 
-<p class="hide-if-no-js">Далее применим к данным инструментам скользящую линейную регрессию с окном в полгода. Получаем следующие картинки:</p>
-
-<p><img src="/images/p1fig3.jpg" alt="&quot;sm Factors Base&quot;" /></p>
-
-<p class="hide-if-no-js">Такое простое представление можно рассматривать как меру риска в довольно длинном окне.  Если смотреть текущий кризис, начиная примерно с 2007-го года, то у РТСИ размах увеличился примерно в 2 раза а у СиПи в 2 раза "лучше" - примерно в 4 раза. Мне картинка по СиПи напомнила  М.Ю. Лермонтова: « Да! Были люди в наше время…». Теперь попробуем еще один "трюк" с перенормировкой любопытства ради: посмотрим как та же картинка выглядит в полулогарифмическом масштабе. Итак, смотрим</p>
-
-<p><img src="/images/p1fig4.jpg" alt="&quot;sm Factors Base&quot;" /></p>
-
-<p class="hide-if-no-js">Если присмотреться к данным графикам, то увидим, что такое простое изменение шкалы  показывает наличие тренда в поведении обоих рыночных инструментов. Данные картинки(если им доверять) наталкивают на мысль о том, что слухи о выходе мировой экономики из кризиса «слегка преувеличены».</p>
-
-<p>Ну вот пожалуй и все. Удачи всем!</p>
-
-
-    </div>
-
-    <a class="read-more" href="/%D0%9A%D1%80%D0%B8%D0%B7%D0%B8%D1%81/%D0%A0%D1%8B%D0%BD%D0%BE%D0%BA/2015/01/23/42-wp-post1.html">
-       <span class="read-more-text">Read More</span>
-        <span class="cross">+</span>
-    </a>
-
+    </tbody>
+  </table>
 </div>
 
+<blockquote>
+  <p>source article: <a href="http://csspre.com/compare/">csspre.com/compare/</a></p>
+</blockquote>
 
+		</article>
+
+		
+		
+			<div class="post-tags">
+				<div class="svg-container">
+					<svg class="icon icon-tag icon-dark-orange" viewBox="0 0 32 32">
+						<use xlink:href="#icon-tag"></use>
+					</svg>
+				</div>
+
+				
+				
+					
+					
+						<a class="tag-link" href="/tag/preprocessors">preprocessors</a>
+					
+				
+			</div>
+		
+
+		
+		
+		
+			<div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'yellowblueeu'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+		
+
+	</div>
+
+	<div class="posts-nav">
+		
+			<a href="/%D0%9A%D1%80%D0%B8%D0%B7%D0%B8%D1%81/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8/%D0%A0%D1%8B%D0%BD%D0%BE%D0%BA/2015/01/27/Wpress-post-2.html" title="Экономические циклы, стагнация, рецессия, кризис и депрессия" class="go-to right-post">&rarr;</i></a>
+		
+		
+			<a href="/how-to-install-jekyll" title="How to install Jekyll" class="go-to left-post">&larr;</a>
+		
+	</div>
+
+</div>
 
       </div>
 
@@ -1534,6 +1736,33 @@
 		</header>
 		<div class="module-body">
 			<ul>
+				
+					
+					
+					
+					<li>
+						<a class="bold" href="/category/jekyll">
+							jekyll (4)
+					</li>
+						</a>
+				
+					
+					
+					
+					<li>
+						<a class="bold" href="/category/update">
+							update (3)
+					</li>
+						</a>
+				
+					
+					
+					
+					<li>
+						<a class="bold" href="/category/sample-post">
+							Sample Post (2)
+					</li>
+						</a>
 				
 					
 					
@@ -1562,6 +1791,33 @@
 					</li>
 						</a>
 				
+					
+					
+					
+					<li>
+						<a class="bold" href="/category/css">
+							CSS (1)
+					</li>
+						</a>
+				
+					
+					
+					
+					<li>
+						<a class="bold" href="/category/html5">
+							HTML5 (1)
+					</li>
+						</a>
+				
+					
+					
+					
+					<li>
+						<a class="bold" href="/category/welcome">
+							welcome (1)
+					</li>
+						</a>
+				
 			</ul>
 		</div>
 	</div>
@@ -1583,8 +1839,57 @@
 					
 					
 					
-					<a class="tag-label bold" href="/tag/Модели">
-						Модели (1)
+					<a class="tag-label bold" href="/tag/sample">
+						sample (2)
+					</a>
+				
+					
+					
+					
+					<a class="tag-label bold" href="/tag/demo">
+						demo (2)
+					</a>
+				
+					
+					
+					
+					<a class="tag-label bold" href="/tag/hipster-ipsum">
+						hipster-ipsum (1)
+					</a>
+				
+					
+					
+					
+					<a class="tag-label bold" href="/tag/samuel-jackson-ipsum">
+						samuel-jackson-ipsum (1)
+					</a>
+				
+					
+					
+					
+					<a class="tag-label bold" href="/tag/preprocessors">
+						preprocessors (1)
+					</a>
+				
+					
+					
+					
+					<a class="tag-label bold" href="/tag/tutorial">
+						tutorial (2)
+					</a>
+				
+					
+					
+					
+					<a class="tag-label bold" href="/tag/installation">
+						installation (1)
+					</a>
+				
+					
+					
+					
+					<a class="tag-label bold" href="/tag/site-features">
+						Site Features (1)
 					</a>
 				
 			</p>
@@ -1662,8 +1967,8 @@
 	</div>
 
 	<div class="row">
-		<p>Designed by <a href="https://twitter.com/smyelblue" title="Smike twitter page">Smike Alatzas</a>, powered by <a href="http://www.jekyllrb.com" target="_blank">Jekyll</a></p>
-		<p>get the code, at <a href="https://smbitbucet.com/smike/smyelblue">github</a></p>
+		<p>Designed by <a href="https://twitter.com/chalatz" title="Christos Alatzas twitter page">Christos Alatzas</a>, powered by <a href="http://www.jekyllrb.com" target="_blank">Jekyll</a></p>
+		<p>get the code, at <a href="https://github.com/chalatz/yellowblue">github</a></p>
 		<p>
 			<a href="/feed.xml">
 				<div class="svg-container">

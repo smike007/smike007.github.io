@@ -8,7 +8,7 @@
 
     <title>
         
-            Yellowblue - Responsive Jekyll Theme
+            Defining Sections in HTML5 | Yellowblue - Responsive Jekyll Theme
         
     </title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
@@ -19,11 +19,11 @@
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://localhost:3000/category/css/">
+    <link rel="canonical" href="http://localhost:3000/defining-sections-in-html5">
 </head>
 
 
-    <body>
+    <body class="post-page">
 
       <svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="778" height="1376" viewBox="0 0 778 1376">
 <defs>
@@ -1472,10 +1472,167 @@
 </header>
 
 
-      <h1 class="outside-header">Posts in category: <span class="outside-cats">CSS</span></h1>
+      <div role="main" class="main-content main-post-content full-width">
+        <div class="post">
 
-      <div role="main" class="main-content">
-        
+	<div class="post-content-wrapper">
+		<header class="post-header">
+		<h1 data-sr="enter right" class="post-title">Defining Sections in HTML5</h1>
+		<p class="post-meta">Sep 16, 2015</p>
+		
+		
+			<div class="post-categories">
+				<div class="svg-container">
+					<svg class="icon icon-list2 icon-blue" viewBox="0 0 32 32">
+						<use xlink:href="#icon-list2"></use>
+					</svg>
+				</div>
+
+				
+				
+					
+					
+						<a class="category-link" href="/category/html5">HTML5</a>
+					
+				
+			</div>
+		
+
+		
+
+		</header>
+
+		<article class="post-content">
+		<p>All content lying inside the <code class="language-markup">&lt;body&gt;</code> element is part of a section. Sections in HTML5 can be nested. Beside the main section, defined by the <code class="language-markup">&lt;body&gt;</code> element, section limits are defined either explicitly or implicitly. Explicitly-defined sections are the content within <code class="language-markup">&lt;body&gt;</code>,  <code class="language-markup">&lt;section&gt;</code>,  <code class="language-markup">&lt;article&gt;</code>,  <code class="language-markup">&lt;aside&gt;</code>, and <code class="language-markup">&lt;nav&gt;</code> tags.</p>
+
+<div class="alert-success">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <blockquote class="text-black"><strong>Note:</strong> Each section can have its own heading hierarchy. Therefore, even a nested section can have an <code class="language-markup">&lt;h1&gt;</code>. See <a href="https://developer.mozilla.org/en-US/docs/Sections_and_Outlines_of_an_HTML5_document#Defining_Headings_in_HTML5">Defining Headings in HTML5</a>.</blockquote>
+</div>
+
+<p>Example:</p>
+
+<!-- more -->
+
+<pre class="line-numbers">
+<code class="language-markup">&lt;section&gt;
+  &lt;h1&gt;Forest elephants&lt;/h1&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Introduction&lt;/h1&gt;
+    &lt;p&gt;In this section, we discuss the lesser known forest elephants.&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Habitat&lt;/h1&gt;
+    &lt;p&gt;Forest elephants do not live in trees but among them.&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;aside&gt;
+    &lt;p&gt;advertising block&lt;/p&gt;
+  &lt;/aside&gt;
+&lt;/section&gt;
+&lt;footer&gt;
+  &lt;p&gt;(c) 2010 The Example company&lt;/p&gt;
+&lt;/footer&gt;</code>
+</pre>
+
+<p>This HTML snippet defines a top-level section:</p>
+
+<pre class="line-numbers">
+<code class="language-markup">&lt;section&gt;
+  &lt;h1&gt;Forest elephants&lt;/h1&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Introduction&lt;/h1&gt;
+    &lt;p&gt;In this section, we discuss the lesser known forest elephants.&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Habitat&lt;/h1&gt;
+    &lt;p&gt;Forest elephants do not live in trees but among them.&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;aside&gt;
+    &lt;p&gt;advertising block&lt;/p&gt;
+  &lt;/aside&gt;
+&lt;/section&gt;
+&lt;footer&gt;
+  &lt;p&gt;(c) 2010 The Example company&lt;/p&gt;
+&lt;/footer&gt;</code>
+</pre>
+
+<p>This section has three subsections:</p>
+
+<pre class="line-numbers">
+<code class="language-markup">&lt;section&gt;
+  &lt;h1&gt;Forest elephants&lt;/h1&gt;
+
+  &lt;section&gt;
+    &lt;h1&gt;Introduction&lt;/h1&gt;
+    &lt;p&gt;In this section, we discuss the lesser known forest elephants.&lt;/p&gt;
+  &lt;/section&gt;
+
+  &lt;section&gt;
+    &lt;h1&gt;Habitat&lt;/h1&gt;
+    &lt;p&gt;Forest elephants do not live in trees but among them.&lt;/p&gt;
+  &lt;/section&gt;
+
+  &lt;aside&gt;
+    &lt;p&gt;advertising block&lt;/p&gt;
+  &lt;/aside&gt;
+&lt;/section&gt;
+
+&lt;footer&gt;
+  &lt;p&gt;(c) 2010 The Example company&lt;/p&gt;
+&lt;/footer&gt;</code>
+</pre>
+
+<p>This leads to the following outline:</p>
+
+<pre class="line-numbers">
+<code class="language-markup">1. Forest elephants
+   1.1 Introduction
+   1.2 Habitat
+</code>
+</pre>
+
+<blockquote>
+  <p>source article: <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document#Defining_Sections_in_HTML5">Defining Sections in HTML5</a></p>
+</blockquote>
+
+		</article>
+
+		
+		
+			<div class="post-tags">
+				<div class="svg-container">
+					<svg class="icon icon-tag icon-dark-orange" viewBox="0 0 32 32">
+						<use xlink:href="#icon-tag"></use>
+					</svg>
+				</div>
+
+				
+				
+					
+					
+						<a class="tag-link" href="/tag/tutorial">tutorial</a>
+					
+				
+			</div>
+		
+
+		
+		
+		
+
+	</div>
+
+	<div class="posts-nav">
+		
+			<a href="/how-to-install-jekyll" title="How to install Jekyll" class="go-to right-post">&rarr;</i></a>
+		
+		
+			<a href="/jekyll/2015/09/25/yellowblue-features.html" title="Features" class="go-to left-post">&larr;</a>
+		
+	</div>
+
+</div>
 
       </div>
 

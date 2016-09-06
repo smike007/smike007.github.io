@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    
+    <url>
+      <loc>http://localhost:3000/welcome-to-yellowblue</loc>
+      
+        <lastmod>2015-10-02T14:19:27-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/jekyll/2015/09/25/yellowblue-features.html</loc>
+      
+        <lastmod>2015-09-25T14:19:27-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/defining-sections-in-html5</loc>
+      
+        <lastmod>2015-09-16T14:19:27-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/how-to-install-jekyll</loc>
+      
+        <lastmod>2015-08-17T14:19:27-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/comparing-css-preprocessors</loc>
+      
+        <lastmod>2015-08-10T14:19:27-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/%D0%9A%D1%80%D0%B8%D0%B7%D0%B8%D1%81/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8/%D0%A0%D1%8B%D0%BD%D0%BE%D0%BA/2015/01/27/Wpress-post-2.html</loc>
+      
+        <lastmod>2015-01-27T17:45:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/%D0%9A%D1%80%D0%B8%D0%B7%D0%B8%D1%81/%D0%A0%D1%8B%D0%BD%D0%BE%D0%BA/2015/01/23/42-wp-post1.html</loc>
+      
+        <lastmod>2015-01-23T04:46:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/sample-post-2</loc>
+      
+        <lastmod>2014-10-27T14:19:27-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/sample-post-1</loc>
+      
+        <lastmod>2014-11-25</lastmod>
+      
+      
+        <changefreq>weekly</changefreq>
+      
+      
+        <priority>0.7</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/welcome-to-jekyll</loc>
+      
+        <lastmod>2013-02-16T13:19:27-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+  
+    
+    <url>
+      <loc>http://localhost:3000/about/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/feed.xml</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/tag/demo/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/category/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/category/%D0%9A%D1%80%D0%B8%D0%B7%D0%B8%D1%81/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/category/jekyll/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/category/html5/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/category/update/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/category/sample-post/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/category/css/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/category/welcome/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/pattern-library/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/tag/mytag/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/tag/site-features/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/category/features/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/tag/samuel-jackson-ipsum/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/404/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/tag/installation/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/tag/hipster-ipsum/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/tag/preprocessors/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/tag/tutorial/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/archives/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/thank-you/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/contact/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/icons/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/tag/sample/</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3000/css/main.css</loc>
+      
+        <lastmod>2016-09-06T14:52:57-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+  
+</urlset>

@@ -6,13 +6,15 @@
 </description>
     <link>http://localhost:3000/</link>
     <atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Jan 2017 01:26:29 -0500</pubDate>
-    <lastBuildDate>Fri, 13 Jan 2017 01:26:29 -0500</lastBuildDate>
+    <pubDate>Fri, 13 Jan 2017 01:45:46 -0500</pubDate>
+    <lastBuildDate>Fri, 13 Jan 2017 01:45:46 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Welcome to Yellowblue!</title>
-        <description>&lt;p&gt;Yellowblue is a modern, clean and responsive Jekyll theme.&lt;/p&gt;
+        <description>&lt;p&gt;Smike ssh&lt;/p&gt;
+
+&lt;p&gt;Yellowblue is a modern, clean and responsive Jekyll theme.&lt;/p&gt;
 
 &lt;p&gt;Yellowblue is perfect for your personal or professional blog, as it combines the simplicity and the powerful features of the Jekyll blogging engine.&lt;/p&gt;
 
